@@ -1,0 +1,232 @@
+[
+  {"questionObject":{
+    "question": "Cum procedează conducătorul de autovehicul care intenţionează să circule pe direcţia înainte printr-o intersecţie nedirijată?",
+    "questionAnswers": ["reduce viteza şi acordă prioritate tuturor vehiculelor;","reduce viteza şi acordă prioritate vehiculelor care vin din dreapta sa;","reduce viteza şi acordă prioritate vehiculelor care circulă din sens opus şi urmează să schimbe direcţia de mers spre stânga;"],
+    "correctAnswers": [1]
+  }},
+  {"questionObject":{
+    "question": "La întâlnirea unui vehicul greu cu unul uşor, pe un drum public îngust, pentru a face posibilă trecerea va manevra cu spatele:",
+    "questionAnswers": ["vehiculul uşor;","vehiculul greu;","la libera înţelegere;"],
+    "correctAnswers": [0]
+  }},
+  {"questionObject":{
+    "question": "Cum procedează conducătorul de autovehicul atunci când, apropiindu-se de o trecere la nivel cu calea ferată, prevăzută cu bariere ori semibariere, cele două lumini roşii funcţionează intermitent-alternativ?",
+    "questionAnswers": ["continuă deplasarea, dacă barierele nu sunt coborâte;","opreşte, deoarece barierele sunt închise sau urmează să coboare;","continuă deplasarea fără interdicţie, deoarece luminile semnalizează doar prezenţa unei treceri la nivel cu calea ferată;"],
+    "correctAnswers": [1]
+  }},
+  {"questionObject":{
+    "question": "Este permisă deţinerea, montarea sau folosirea la autovehicule a sistemelor care perturbă buna funcţionare a dispozitivelor de supraveghere a traficului?",
+    "questionAnswers": ["da;","nu;","acest aspect nu este stabilit legal;"],
+    "correctAnswers": [1]
+  }},
+  {"questionObject":{
+    "question": "Neeliberarea completă a frânei de staţionare determină:",
+    "questionAnswers": ["zgomote în zona manetei frânei de mână;","un consum suplimentar de carburant;","încălzirea excesivă a butucilor roţilor din spate;"],
+    "correctAnswers": [1,2]
+  }},
+  {"questionObject":{
+    "question": "Care este valoarea alcoolemiei în sânge peste care se aplică pedeapsa penală pentru un conducător aflat la volan?",
+    "questionAnswers": ["0,5 g/l;","0,8 g/l;","1 g/l;"],
+    "correctAnswers": [1]
+  }},
+  {"questionObject":{
+    "question": "În care dintre situaţii pot fi retrase plăcuţele cu numărul de înmatriculare ale unui autovehicul?",
+    "questionAnswers": ["atunci când plăcuţele cu numărul de înmatriculare nu sunt conforme cu standardele în vigoare;","atunci când certificatul de înmatriculare este pierdut;","atunci când conducătorul autovehiculului nu poate prezenta cartea de identitate şi carnetul de conducere;"],
+    "correctAnswers": [0]
+  }},
+  {"questionObject":{
+    "question": "În care dintre situaţiile prezentate mai jos nu este permisă oprirea voluntară a vehiculelor?",
+    "questionAnswers": ["la o distanţă mai mică de 50 m de trecerea la nivel cu calea ferată;","pe pistele obligatorii pentru pietoni;","pe platforma căii ferate sau de tramvai, dacă prin aceasta este stânjenită circulaţia vehiculelor pe şine;"],
+    "correctAnswers": [0,1,2]
+  }},
+  {"questionObject":{
+    "question": "Circulaţi printr-o localitate, în spatele unui vehicul cu număr de înmatriculare din altă localitate sau din străinătate. La ce vă puteţi aştepta?",
+    "questionAnswers": ["vehiculul care circulă în faţă merge corect;","înainte de a vira, conducătorul vehiculului respectiv va semnaliza din timp schimbarea direcţiei de mers;","conducătorul care circulă în faţă poate să frâneze şi să oprească în mod neaşteptat, pentru a cere informaţii privind drumul;"],
+    "correctAnswers": [2]
+  }},
+  {"questionObject":{
+    "question": "În care dintre situaţii se dispune imobilizarea unui vehicul?",
+    "questionAnswers": ["când starea tehnică a vehiculului pune în pericol grav siguranţa circulaţiei;","când starea tehnică a vehiculului deteriorează drumul public sau afectează mediul;","când conducătorul autovehiculului nu are asupra sa certificatul de înmatriculare;"],
+    "correctAnswers": [0,1]
+  }},
+  {"questionObject":{
+    "question": "Ce obligaţii vă revin atunci când, pe un drum public, întâlniţi autovehicule aparţinând Serviciului de Ambulanţă sau Serviciului Român de Informaţii, care folosesc mijloacele de avertizare luminoasă şi sonoră?",
+    "questionAnswers": ["să opriţi imediat pe dreapta părţii carosabile;","să circulaţi în regim normal, dar cu prudenţă şi folosind luminile intermitente de avarie;","să reduceţi viteza şi să eliberaţi banda pe care vă deplasaţi sau să circulaţi cât mai aproape de bordură ori acostament;"],
+    "correctAnswers": [2]
+  }},
+  {"questionObject":{
+    "question": "Vă este permis să claxonaţi un biciclist înainte de a-l depăşi?",
+    "questionAnswers": ["da, dacă distanţa este de peste 25 m;","nu;","numai în reprize foarte scurte;"],
+    "correctAnswers": [0]
+  }},
+  {"questionObject":{
+    "question": "Este permisă întoarcerea pe autostradă?",
+    "questionAnswers": ["nu;","da;","da, dacă sensul de mers este blocat;"],
+    "correctAnswers": [0]
+  }},
+  {"questionObject":{
+    "question": "Pe un drum cu prioritate, conducătorul de autovehicul întâlneşte în intersecţie marcajul de trecere pentru pietoni. Este obligat să acorde prioritate?",
+    "questionAnswers": ["da, pietonilor angajaţi în traversarea drumului pe trecerea semnalizată şi aflaţi pe sensul lui de mers;","nu, deoarece circulă pe un drum prioritar;","da, atât pietonilor, cât şi vehiculelor care se apropie din sens opus şi care schimbă direcţia de mers spre stânga;"],
+    "correctAnswers": [0]
+  }},
+  {"questionObject":{
+    "question": "Ce este interzis să se monteze la autovehicul?",
+    "questionAnswers": ["dispozitive de detectare a aparatelor radar;","lumini de altă culoare şi intensitate decât cele omologate;","lumini de poziţie;"],
+    "correctAnswers": [1]
+  }},
+  {"questionObject":{
+    "question": "Căile respiratorii pot fi astupate prin:",
+    "questionAnswers": ["aşezarea pe spate a victimei;","aşezarea pe o parte a victimei;","intrarea unor corpi străini pe căile respiratorii;"],
+    "correctAnswers": [2]
+  }},
+  {"questionObject":{
+    "question": "În care dintre situaţii se suspendă exercitarea dreptului de a conduce autovehicule?",
+    "questionAnswers": ["în cazul depăşirii în mod repetat, cu mai mult de 20 km/h, a vitezei maxime legale;","în cazul neopririi la semnalul agentului de cale ferată;","în cazul neprezentării în termen de 24 de ore la unitatea de poliţie competentă pe raza căreia s-a produs un accident cu avarierea vehiculului;"],
+    "correctAnswers": [2]
+  }},
+  {"questionObject":{
+    "question": "Cea mai frecventă defecţiune a instalaţiei de răcire a motorului este:",
+    "questionAnswers": ["slăbirea sau ruperea curelei de antrenare a ventilatorului şi a pompei de apă;","înfundarea prizei de aer care alimentează ventilatorul;","patinarea ambreiajului;"],
+    "correctAnswers": [0]
+  }},
+  {"questionObject":{
+    "question": "Spre ce parte a drumului public are tendinţa de a derapa autovehiculul, în cazul efectuării unui viraj la stânga cu o viteză mare?",
+    "questionAnswers": ["spre dreapta, către exteriorul curbei;","spre interiorul curbei, către sensul opus de mers;","autovehiculul nu poate derapa în nicio situaţie;"],
+    "correctAnswers": [0]
+  }},
+  {"questionObject":{
+    "question": "Ce trebuie să verificaţi la un autoturism cu rulotă, înainte de a porni la drum?",
+    "questionAnswers": ["dacă sistemul de alimentare cu apă al rulotei funcţionează;","dacă vizibilitatea în spate, prin oglinzile retrovizoare, este asigurată;","dacă persoanele transportate în rulotă poartă centura de siguranţă;"],
+    "correctAnswers": [1]
+  }},
+  {"questionObject":{
+    "question": "Depăşirea nu este permisă:",
+    "questionAnswers": ["atunci când vehiculul ce urmează a fi depăşit rulează cu viteza admisă de lege;","in orice locuri şi situaţii în care vizibilitatea nu permite executarea manevrei;","atunci când traficul rutier este aglomerat;"],
+    "correctAnswers": [1]
+  }},
+  {"questionObject":{
+    "question": "Care sunt sancţiunile ce se aplică în cazul depăşirii unei coloane de vehicule în aşteptare, dacă prin aceasta se intră pe sensul opus de circulaţie?",
+    "questionAnswers": ["suspendarea certificatului de înmatriculare;","amendă contravenţională şi suspendarea exercitării dreptului de a conduce;","amendă contravenţională,;"],
+    "correctAnswers": [1]
+  }},
+  {"questionObject":{
+    "question": "Purtarea centurii de siguranţă este obligatorie în timpul circulaţiei pe drumurile din localităţi?",
+    "questionAnswers": ["nu;","da, numai de către conducătorul autovehiculului;","da, de către cel de la volan şi de către pasagerii care ocupă locurile prevăzute cu asemenea dispozitive;"],
+    "correctAnswers": [2]
+  }},
+  {"questionObject":{
+    "question": "Dacă rămâneţi în pană într-un tunel:",
+    "questionAnswers": ["opriţi funcţionarea motorului;","motorul trebuie să funcţioneze, pentru a putea folosi luminile de avarie;","închideţi autovehiculul şi vă îndepărtaţi de acesta;"],
+    "correctAnswers": [0]
+  }},
+  {"questionObject":{
+    "question": "Ce trebuie să folosiţi pentru imobilizarea fracturilor de la membrele superioare?",
+    "questionAnswers": ["atele improvizate;","o eşarfă simplă;","în acest caz nu se intervine;"],
+    "correctAnswers": [1]
+  }},
+  {"questionObject":{
+    "question": "Ce măsuri se iau în cazul accidentării foarte grave a unei persoane, într-un accident de circulaţie?",
+    "questionAnswers": ["transportul imediat la cea mai apropiată unitate sanitară, cu orice mijloc de transport posibil;","transportul imediat până la prima localitate şi anunţarea ambulanţei;","acordarea primului ajutor, până la sosirea ambulanţei;"],
+    "correctAnswers": [2]
+  }},
+  {"questionObject":{
+    "question": "Ce nu le este permis posesorilor de autovehicule?",
+    "questionAnswers": ["să circule cu maşina murdară;","să monteze alte dispozitive de iluminare decât cele omologate;","să instaleze alte avertizoare sonore decât cele impuse de autoritatea competentă;"],
+    "correctAnswers": [1,2]
+  }},
+  {"questionObject":{
+    "question": "Când gura unui rănit rămâne încleştată, respiraţia artificială se poate face:",
+    "questionAnswers": ["prin gura închisă a victimei;","prin nările victimei;","în acest caz nu se mai face respiraţie artificială;"],
+    "correctAnswers": [2]
+  }},
+  {"questionObject":{
+    "question": "Dacă într-o intersecţie conducătorul de vehicul întâlneşte semnalul verde al semaforului, precum şi indicatorul „Cedează trecerea”, el este obligat:",
+    "questionAnswers": ["să respecte semnificaţia semnalului verde;","să respecte semnificaţia indicatorului;","să respecte semnificaţia semnalului verde, acordând prioritate de trecere vehiculelor care circulă pe drumul prioritar;"],
+    "correctAnswers": [0]
+  }},
+  {"questionObject":{
+    "question": "Viteza de deplasare trebuie redusă până la 30 km/h în localităţi sau 50 km/h în afara localităţilor:",
+    "questionAnswers": ["la trecerea pe lângă grupuri organizate, coloane militare sau cortegii, dacă acestea se află pe drumurile cu o singură bandă de circulaţie pe sens;","la întâlnirea indicatorului „Pistă obligatorie pentru biciclişti”;","la trecerile la nivel cu calea ferată dublă sau simplă prevăzută cu bariere;"],
+    "correctAnswers": [0]
+  }},
+  {"questionObject":{
+    "question": "Perna de aer (AIRBAG-ul) asigură:",
+    "questionAnswers": ["amortizarea rapidă a trepidaţiilor datorate denivelărilor existente pe drumul public;","protecţia suplimentară a persoanelor în cazul unui impact puternic al autovehiculului;","posibilitatea conducerii relaxate, cu capul sprijinit de aceasta;"],
+    "correctAnswers": [1]
+  }},
+  {"questionObject":{
+    "question": "Ce vă indică, de regulă, faptul că bateria de acumulatori este descărcată?",
+    "questionAnswers": ["la aprinderea farurilor, intensitatea luminoasă a acestora scade progresiv;","acţionând claxonul, acesta emite un sunet slab, întrerupt;","demontând bateria, constatăm că aceasta este mai uşoară decât de obicei;"],
+    "correctAnswers": [0,1]
+  }},
+  {"questionObject":{
+    "question": "Dacă circulaţi într-o intersecţie cu sens giratoriu, acordaţi prioritate:",
+    "questionAnswers": ["niciunui vehicul;","vehiculelor care urmează să intre în intersecţie;","autobuzelor şi troleibuzelor;"],
+    "correctAnswers": [0]
+  }},
+  {"questionObject":{
+    "question": "Sunteţi obligat să aveţi în autovehicul trusa medicală de prim ajutor, două triunghiuri reflectorizante şi stingătorul de incendii omologat?",
+    "questionAnswers": ["numai trusa medicală de prim ajutor;","numai trusa medicală de prim ajutor şi două triunghiuri reflectorizante;","toate dotările enumerate trebuie să se afle în autovehicul;"],
+    "correctAnswers": [2]
+  }},
+  {"questionObject":{
+    "question": "Care dintre conducătorii de vehicule, ce se apropie simultan de o intersecţie, are prioritate de trecere, în situaţia în care unul întâlneşte indicatorul „Oprire\", iar celălalt indicatorul „Cedează trecerea\"?",
+    "questionAnswers": ["conducătorul care întâlneşte indicatorul „Cedează trecerea”;","conducătorul care circulă din dreapta;","conducătorul care întâlneşte indicatorul „Oprire”;"],
+    "correctAnswers": [1]
+  }},
+  {"questionObject":{
+  "question": "Un vehicul are luminile de avarie aprinse. Ce trebuie să aveţi în vedere?",
+  "questionAnswers": ["vehiculul va vira la dreapta sau la stânga;","vehiculul este parcat;","vehiculul a rămas în pană sau este remorcat;"],
+  "correctAnswers": [2]
+  }},
+  {"questionObject":{
+    "question": "În care dintre următoarele situaţii este interzisă oprirea?",
+    "questionAnswers": ["pe sectoarele de drum neiluminate;","la o distanţă mai mică de 5 m faţă de spatele unui tramvai;","pe drumurile naţionale europene;"],
+    "correctAnswers": [2]
+  }},
+  {"questionObject":{
+    "question": "În faţa dvs. circulă un tractor cu două remorci, pe ultima fiind scris „FĂRĂ SEMNALIZARE”. Intenţionaţi să-l depăşiţi în apropierea unei intersecţii. Cum procedaţi?",
+    "questionAnswers": ["aşteptaţi să treceţi de respectiva intersecţie, chiar dacă pierdeţi din timpul planificat al călătoriei;","vă angajaţi în depăşire, întrucât autovehiculul dvs. vă permite să rulaţi, în mod legal, cu o viteză mai mare;","semnalizaţi efectuarea depăşirii şi acceleraţi, pentru ca manevra să dureze cât mai puţin;"],
+    "correctAnswers": [0]
+  }},
+  {"questionObject":{
+    "question": "Interzicerea trecerii la nivel cu calea ferată curentă, prevăzută cu instalaţii de semnalizare automată fără bariere, se realizează prin:",
+    "questionAnswers": ["dispozitivele cu lumini intermitent-alternative roşii şi stingerea semnalizării reprezentată de lumina albă intermitentă;","semnalele luminoase intermitente de culoare albă;","dispozitivele optice cu lumini alternative roşii şi albe;"],
+    "correctAnswers": [0]
+  }},
+  {"questionObject":{
+    "question": "Din ce direcţie trebuie să se asigure un conducător auto, înainte de a trece la efectuarea unei depăşiri?",
+    "questionAnswers": ["din faţă;","din spate;","atât din faţă, cât şi din spate;"],
+    "correctAnswers": [2]
+  }},
+  {"questionObject":{
+    "question": "În rănile cu hemoragie se va avea în vedere, în faza iniţială:",
+    "questionAnswers": ["curăţarea şi pansarea rănii;","pansarea rănii","oprirea hemoragiei;"],
+    "correctAnswers": [2]
+  }},
+  {"questionObject":{
+    "question": "În ce situaţie, pe timp de zi, conducătorii auto sunt obligaţi să folosească luminile de întâlnire?",
+    "questionAnswers": ["când tractează alte vehicule;","când circulă pe drumurile judeţene;","când circulă cu viteză redusă;"],
+    "correctAnswers": [0]
+  }},
+  {"questionObject":{
+    "question": "Conducătorului auto i se interzice:",
+    "questionAnswers": ["să arunce din vehicul obiecte, substanţe sau alte bunuri;","să deschidă uşile, dacă vehiculul este oprit sau staţionat pe partea carosabilă;","să folosească instalaţia de sonorizare cu care este echipat autoturismul;"],
+    "correctAnswers": [0]
+  }},
+  {"questionObject":{
+    "question": "Pe autostradă se interzice:",
+    "questionAnswers": ["circulaţia cu o viteză sub 80 km/h;","manevra de mers înapoi;","folosirea benzii de lângă zona mediană ce desparte cele două părţi carosabile;"],
+    "correctAnswers": [1]
+  }},
+  {"questionObject":{
+    "question": "Imobilizarea unei fracturi fără atele se face cu:",
+    "questionAnswers": ["o folie de material plastic;","eşarfe şi triunghiuri de pânză;","carton rigid;"],
+    "correctAnswers": [1]
+  }},
+  {"questionObject":{
+  "question": "Ce categorii de vehicule au obligaţia de a folosi luminile de întâlnire pe timp de zi?",
+  "questionAnswers": ["motocicletele şi mopedele;","autovehiculele care însoţesc coloane militare sau transportă grupuri de persoane;","autovehiculele care tractează alte vehicule sau care transportă produse periculoase;"],
+  "correctAnswers": [0,1,2]
+}}
+]

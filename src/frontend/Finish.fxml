@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="CENTER" prefHeight="720" prefWidth="1280" style="-fx-background-color: #40E0D0;"
+          xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FinishController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+    </rowConstraints>
+    <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FINAL CHESTIONAR" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold Italic" size="36.0"/>
+            </font>
+            <fill>
+                <RadialGradient centerX="0.49555562337239584" centerY="0.5152671610126058" cycleMethod="REFLECT" radius="0.5">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" opacity="0.0"/>
+                            </color>
+                        </Stop>
+                        <Stop offset="0.007633587786259542">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" opacity="0.0"/>
+                            </color>
+                        </Stop>
+                        <Stop offset="0.5145038167938931">
+                            <color>
+                                <Color green="0.501960813999176" blue="0.501960813999176"/>
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color blue="0.501960813999176"/>
+                            </color>
+                        </Stop>
+                    </stops>
+                </RadialGradient>
+            </fill>
+        </Text>
+
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Testul s-a terminat." textAlignment="CENTER">
+            <font>
+                <Font size="18.0"/>
+            </font>
+        </Text>
+
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ați fost declarat:  " textAlignment="CENTER">
+                <font>
+                    <Font name="System Bold" size="18.0"/>
+                </font>
+            </Text>
+            <Text fx:id="finalAnswer" strokeType="OUTSIDE" strokeWidth="0.0" text="finalAnswer"
+                  textAlignment="CENTER">
+                <font>
+                    <Font name="System Bold" size="20.0"/>
+                </font>
+            </Text>
+        </HBox>
+    </VBox>
+
+    <HBox alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+        <VBox prefHeight="200.0" prefWidth="100.0">
+            <HBox prefHeight="100.0" prefWidth="200.0">
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Întrebări Inițiale:  ">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                </Text>
+                <Text text="26" textAlignment="CENTER">
+                    <font>
+                        <Font size="20.0"/>
+                    </font>
+                </Text>
+            </HBox>
+
+            <HBox prefHeight="100.0" prefWidth="200.0">
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Răspunsuri Corecte:  ">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                </Text>
+                <Text fx:id="correctAnswers" fill="GREEN" text="correctAnswer" textAlignment="CENTER">
+                    <font>
+                        <Font size="20.0"/>
+                    </font>
+                </Text>
+            </HBox>
+
+            <HBox prefHeight="100.0" prefWidth="200.0">
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Răspunsuri Greșite:  ">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                </Text>
+                <Text fx:id="wrongAnswers" fill="RED" text="correctAnswer" textAlignment="CENTER">
+                    <font>
+                        <Font size="20.0"/>
+                    </font>
+                </Text>
+            </HBox>
+        </VBox>
+    </HBox>
+
+    <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+        <Button onAction="#next" alignment="CENTER" contentDisplay="CENTER"
+                style="-fx-background-color: linear-gradient(#008080,#000080);  -fx-cursor: hand;" styleClass="buttonColor"
+                text="Încearca din nou" textAlignment="CENTER" textFill="WHITE">
+            <HBox.margin>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="10.0"/>
+            </HBox.margin>
+            <font>
+                <Font name="System Bold" size="24.0"/>
+            </font>
+        </Button>
+    </HBox>
+</GridPane>

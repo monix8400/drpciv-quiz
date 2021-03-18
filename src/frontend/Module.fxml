@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="CENTER" prefHeight="720" prefWidth="1280" style="-fx-background-color: #40E0D0;" styleClass="root" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+    <padding>
+        <Insets bottom="10" />
+    </padding>
+
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+
+    <ToolBar style="-fx-background-color: linear-gradient(#008080,#000080);">
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="256.0" style="-fx-border-color: grey; -fx-border-radius: 5; -fx-background-color: white; -fx-background-radius: 5;">
+            <Text fill="#878f99" strokeType="OUTSIDE" strokeWidth="0.0" text="Întrebări inițiale:  " textAlignment="CENTER">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Text>
+            <Text text="26" textAlignment="CENTER">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Text>
+        </HBox>
+
+        <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="256.0" style="-fx-border-color: grey; -fx-border-radius: 5; -fx-background-color: white; -fx-background-radius: 5;">
+            <Text fill="#878f99" strokeType="OUTSIDE" strokeWidth="0.0" text="Întrebări rămase:  " textAlignment="CENTER">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Text>
+            <Text fx:id="remainingQuestions" text="Nr remained Questions" textAlignment="CENTER">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Text>
+        </HBox>
+
+        <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="200.0" style="-fx-border-color: grey; -fx-border-radius: 5; -fx-background-color: white; -fx-background-radius: 5;">
+            <Text fx:id="timer" strokeType="OUTSIDE" strokeWidth="0.0" text="Timer" textAlignment="CENTER">
+                <font>
+                    <Font size="20.0" />
+                </font>
+            </Text>
+        </HBox>
+
+        <HBox alignment="CENTER" layoutX="214.0" layoutY="10.0" prefHeight="50.0" prefWidth="256.0" style="-fx-border-color: grey; -fx-border-radius: 5; -fx-background-color: white; -fx-background-radius: 5;">
+            <Text fill="#878f99" strokeType="OUTSIDE" strokeWidth="0.0" text="Răspunsuri corecte:  " textAlignment="CENTER">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Text>
+            <Text fx:id="correctQuestions" fill="GREEN" text="Nr correct Questions" textAlignment="CENTER">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Text>
+        </HBox>
+
+        <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="256.0" style="-fx-border-color: grey; -fx-border-radius: 5; -fx-background-radius: 5; -fx-background-color: white;">
+            <Text fill="#878f99" strokeType="OUTSIDE" strokeWidth="0.0" text="Răspunsuri greșite:  " textAlignment="CENTER">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Text>
+            <Text fx:id="wrongQuestions" fill="RED" text="Nr wrong questions" textAlignment="CENTER">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Text>
+        </HBox>
+    </ToolBar>
+
+    <HBox alignment="CENTER" GridPane.rowIndex="1">
+        <GridPane.margin>
+            <Insets bottom="10.0" left="20.0" right="20.0" top="20.0" />
+        </GridPane.margin>
+        <Text fx:id="current" text="question nr" textAlignment="CENTER">
+        <font>
+            <Font size="24.0" />
+        </font>
+        </Text>
+
+    </HBox>
+
+    <HBox alignment="CENTER" maxWidth="1.7976931348623157E308" GridPane.rowIndex="2">
+        <VBox maxWidth="1.7976931348623157E308" style="-fx-background-color: #40E0D0;">
+            <HBox.margin>
+                <Insets left="20.0" right="20.0" />
+            </HBox.margin>
+            <padding>
+                <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+            </padding>
+            <Text fx:id="question" text="question" textAlignment="CENTER" wrappingWidth="800">
+                <font>
+                    <Font size="24.0" />
+                </font>
+                <VBox.margin>
+                    <Insets bottom="10.0" />
+                </VBox.margin>
+            </Text>
+
+            <VBox>
+                <HBox alignment="CENTER_LEFT" style="-fx-border-color: grey; -fx-border-radius: 15;">
+                    <CheckBox fx:id="check_A" style="-fx-cursor: hand;" text="A. ">
+                        <font>
+                            <Font name="System Bold Italic" size="24.0" />
+                        </font>
+                        <textFill>
+                            <LinearGradient cycleMethod="REFLECT">
+                                <stops>
+                                    <Stop>
+                                        <color>
+                                            <Color />
+                                        </color>
+                                    </Stop>
+                                    <Stop offset="0.007633587786259542">
+                                        <color>
+                                            <Color green="0.501960813999176" blue="0.501960813999176" />
+                                        </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                        <color>
+                                            <Color blue="0.501960813999176" />
+                                        </color>
+                                    </Stop>
+                                </stops>
+                            </LinearGradient>
+                        </textFill>
+                    </CheckBox>
+                    <Text fx:id="answer_A" wrappingWidth="700">
+                        <font>
+                            <Font size="20.0" />
+                        </font>
+                    </Text>
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                </HBox>
+
+                <HBox alignment="CENTER_LEFT" style="-fx-border-color: grey; -fx-border-radius: 15;">
+                    <CheckBox fx:id="check_B" style="-fx-cursor: hand;" text="B. ">
+                        <font>
+                            <Font name="System Bold Italic" size="24.0" />
+                        </font>
+                        <textFill>
+                            <LinearGradient cycleMethod="REFLECT">
+                                <stops>
+                                    <Stop>
+                                        <color>
+                                            <Color green="0.501960813999176" blue="0.501960813999176" />
+                                        </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                        <color>
+                                            <Color blue="0.501960813999176" />
+                                        </color>
+                                    </Stop>
+                                </stops>
+                            </LinearGradient>
+                        </textFill>
+                    </CheckBox>
+                    <Text fx:id="answer_B" wrappingWidth="700">
+                        <font>
+                            <Font size="20.0" />
+                        </font>
+                    </Text>
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets bottom="10.0" top="10.0" />
+                    </VBox.margin>
+                </HBox>
+
+                <HBox alignment="CENTER_LEFT" style="-fx-border-color: grey; -fx-border-radius: 15;">
+                    <CheckBox fx:id="check_C" style="-fx-cursor: hand;" text="C. ">
+                        <font>
+                            <Font name="System Bold Italic" size="24.0" />
+                        </font>
+                        <textFill>
+                            <LinearGradient cycleMethod="REFLECT">
+                                <stops>
+                                    <Stop>
+                                        <color>
+                                            <Color green="0.501960813999176" blue="0.501960813999176" />
+                                        </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                        <color>
+                                            <Color blue="0.501960813999176" />
+                                        </color>
+                                    </Stop>
+                                </stops>
+                            </LinearGradient>
+                        </textFill>
+                    </CheckBox>
+                    <Text fx:id="answer_C" wrappingWidth="700">
+                        <font>
+                            <Font size="20.0" />
+                        </font>
+                    </Text>
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </HBox>
+            </VBox>
+        </VBox>
+    </HBox>
+
+    <HBox alignment="CENTER" GridPane.rowIndex="3">
+        <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="10.0" />
+        </GridPane.margin>
+        <Button alignment="CENTER" contentDisplay="CENTER" onAction="#next" style="-fx-background-color: linear-gradient(#008080,#000080); -fx-cursor: hand;" styleClass="buttonColor" text="Next" textAlignment="CENTER" textFill="WHITE">
+            <HBox.margin>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="10.0" />
+            </HBox.margin>
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Button>
+    </HBox>
+
+</GridPane>
